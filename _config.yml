@@ -24,9 +24,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: Dani Arama
+email: dani@daniarama.com
+author: Dani Arama
+
+sidebar: []
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,12 +42,10 @@ author: GitHub User
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "dani@daniarama.com"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Portfolio of Dani Arama
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
@@ -160,11 +160,11 @@ yat:
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "Dani"
+    subheading: "Your awesome subheading"
+    banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
